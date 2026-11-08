@@ -1,0 +1,16 @@
+{
+  "name": "backend-auth",
+  "version": "1.0.0",
+  "description": "Backend ligero para Laboratorio Seguridad Móvil (OAuth 2.0 + PKCE, Silent Refresh, Step-Up 2FA TOTP & Anti-Replay)",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.21.2",
+    "jsonwebtoken": "^9.0.2"
+  }
+}
+
